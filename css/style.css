@@ -1,0 +1,51 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+
+}
+html{
+    scroll-behavior: smooth;
+}
+
+header{
+    width: 100%;
+}
+.container{
+    width: 1140px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.buttonwrapper h1{
+    margin-top: 160px;
+    color: rgb(129, 25, 95);
+    font-size: 28px;
+    font-weight: 700;
+   
+}
+.buttonwrapper p{
+    display: inline-block;
+    font-size: 14px;
+    margin: 12px 300px;
+    line-height: 1.7;
+    font-weight: 300;
+    color: rgb(136, 121, 121);
+}
+.span{
+    color: rgb(38, 49, 199);
+    font-weight: 600;
+}
+.btn{
+    padding: 15px;
+    color: rgb(255, 255, 255);
+    background-color: rgb(58, 39, 128);
+    border: none;
+    font-size: 18px;
+    border-radius: 6px;
+    cursor:pointer;
+}
+.btn:hover{
+    color: white;
+    background-color: rgb(80, 100, 39);
+}
